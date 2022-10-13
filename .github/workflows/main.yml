@@ -15,4 +15,4 @@ jobs:
           aws-session-token: ${{ secrets.AWS_SESSION_TOKEN }}
           aws-region: ${{ secrets.AWS_REGION }}
       - name: Deploy app build to lambda
-        run: aws lambda update-function-code --function-name project-2022-23t1-g1-<teamNo>-lambda --zip-file fileb://backend.zip
+        run: aws lambda update-function-code --function-name project-2022-23-t1-g3-t6-lambda --zip-file fileb://backend.zip
